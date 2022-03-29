@@ -1,0 +1,12 @@
+npm init -y
+npm install cypress -d
+npx cypress open
+
+
+
+cy.get('colocamos el selector').(lo que vamos a hacer en el selector)
+
+
+
+npx run --spec cypress\integration\smoketest.spec.js  
+npx run --spec cypress\integration\smoketest.spec.js  --browser chrome  
